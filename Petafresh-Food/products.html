@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Sản phẩm</title>
+</head>
+<body>
+    <section class="products">
+        <h2>Sản phẩm</h2>
+        <ul class="product-list">
+            <li class="product-item">
+                <div class="product-details">
+                    <h3>Mì Peta vị gừng cay</h3>
+                    <img src="https://drive.google.com/uc?export=view&id=1zFTHZk1LmIsk50zscAZlUxJDhbO-yEhp" alt="Mì Peta vị gừng cay">
+                    <p>Sợi mì được chiết xuất từ bột gạo nguyên chất</p>
+                    <p>Thành phần tiêu biểu: gừng, húng tây, hạt tiêu, bắp ngô, cà rốt,...</p>
+                    <p>Giá: 45.000/ 1 sản phẩm</p>
+                </div>
+            </li>
+            <li class="product-item">
+                <div class="product-details">
+                    <h3>Mì Peta vị măng chua</h3>
+                    <img src="https://drive.google.com/uc?export=view&id=1MJ19PXzaH5mqQ4sTp-TIYETYyr9n0wzp" alt="Mì Peta vị măng chua">
+                    <p>Sợi mì được chiết xuất từ từ cải bó xôi và chùm ngây</p>
+                    <p>Thành phần tiêu biểu: măng chua, ngũ quả, lá me, ớt, tiêu,...</p>
+                    <p>Giá: 45.000/ 1 sản phẩm</p>
+                </div>  
+            </li>
+            <li class="product-item">
+                <div>
+                    <h3>Mì Peta vị rong biển</h3>
+                    <img src="https://drive.google.com/uc?export=view&id=1rZWshonNVH3F7_liijxIx-aHaCCWX5RT" alt="Mì Peta vị rong biển">
+                    <p>Sợi mì được chiết xuất từ khoai lang tím và hoa đậu biếc</p>
+                    <p>Thành phần tiêu biểu: rong biển, nấm rơm, mộc nhĩ, mè trắng, gừng,...</p>
+                    <p>Giá: 45.000/ 1 sản phẩm</p>
+                </div>  
+            </li>
+            <li class="product-item">
+                <div>
+                    <h3>Mì Peta vị lẩu nấm</h3>
+                    <img src=" https://drive.google.com/uc?export=view&id=12UGeU1eqnwWwiUSkxnrgIuUU-oM1kyi-" alt="Mì Peta vị lẩu nấm">
+                    <p>Sợi mì được chiết xuất từ gạo lứt</p>
+                    <p>Thành phần tiêu biểu: mật ong, tiêu, gừng, nấm đông cô, đậu hũ non,...</p>
+                    <p>Giá: 45.000/ 1 sản phẩm</p>
+                </div>
+            </li>
+            <li class="product-item">
+                <div>
+                    <h3>Mì Peta vị tương đen</h3>
+                    <img src="https://drive.google.com/uc?export=view&id=11N8boOs3nZofztijQySQqC-Y-2Y32XT9" alt="Mì Peta vị tương đen">
+                    <p>Sợi mì được chiết xuất từ gấc</p>
+                    <p>Thành phần tiêu biểu: hoàng bá, dầu đậu nành, bắp cải, hành tây, khoai tây,...</p>
+                    <p>Giá: 45.000/ 1 sản phẩm</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Liên hệ</h2>
+        <div class="contact-form">
+            <form action="submit_form.php" method="post">
+                <label for="product"><p>Sản phẩm muốn mua</p></label>
+                <input type="text" id="product" name="product" required>
+
+                <label for="quantity"><p>Số lượng</p></label>
+                <input type="number" id="quantity" name="quantity" required>
+
+                <label for="name"><p>Họ tên</p></label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone"><p>Số điện thoại</p></label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="address"> <p>Địa chỉ nhận hàng</p></label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+
+                <label for="delivery-time"> <p>Thời gian giao hàng mong muốn</p> </label>
+                <input type="text" id="delivery-time" name="delivery-time" required>
+
+                <label for="payment-method"><p>Phương thức thanh toán</p> </label>
+                <input type="text" id="payment-method" name="payment-method" required>
+
+                <input type="submit" value="Gửi đơn hàng">
+            </form>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Contact PetaFresh Food</h2>
+        <p>Địa chỉ: Đường số 123, Phường ABC, Quận XYZ, Thành phố HCM</p>
+        <p>Điện thoại: 0123 456 789</p>
+        <p>Email: contact@petafreshfood.com</p>
+    </section>
+</body>
+</html>
