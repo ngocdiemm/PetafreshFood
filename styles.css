@@ -151,4 +151,11 @@ h3 {
 .aligntick {
     text-align: justify;
 }
+#viewProductsButton {
+    border: none;
+    font-family: 'Playpen Sans Light';
+    font-size: 30px;
+    margin-right: 40px; 
+    color: green;
+}
 

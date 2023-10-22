@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Xử lý sự kiện khi nút được nhấn
     viewProductsButton.addEventListener("click", function () {
         // Chuyển hướng đến trang "products.html"
-        window.location.href = "products.html";
+        window.location.href = "aboutus.html";
     });
 });
