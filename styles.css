@@ -15,15 +15,17 @@
 
 /* Nền */
 body {
-    background: url('https://i.pinimg.com/736x/ed/29/0f/ed290f5ece2048f325ada185c1cc0d12.jpg');
     background-size: cover;
    
     text-align: center;
 }
+#logo {
+    width: 350px; 
+    height: auto;
+}
 
 /* Tiêu đề */
 h1 {
-    background: linear-gradient(to right, #5ee7df, #ff6b6b);
     color: white;
     padding: 20px;
     margin: 0;
@@ -31,10 +33,20 @@ h1 {
     font-weight: bold;
     font-size: 60px; 
 }
+#logo1 {
+    color: orangered;
 
+}
+#logo2 {
+    color: green;
+}
+
+#bg {
+    background-color: green;
+}
 h2, h3 {
     font-family:'Playpen Sans Medium';
-    color: #333;
+    color: green;
     margin-bottom: 30px;
 }
 p {
@@ -113,7 +125,7 @@ h3 {
 }
 
 .contact-form input[type="submit"] {
-    background-color: #ff6600;
+    background-color: green;
     color: #fff;
     border: none;
     padding: 10px 10px;
